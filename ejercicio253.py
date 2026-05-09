@@ -1,5 +1,5 @@
-ingreso = True
 deuda = 100000
+TotalCompra = 0
 while True:
     print("--MENU--")
     print("1. Pago tarjeta de Credito")
@@ -7,23 +7,25 @@ while True:
     print("3. Salir")
 
     op = int(input("Ingrese su opcion: "))
-    
+
     if op == 1:
         print("Pagando..")
-        montoPagar = int(input("Ingrese monto a pagar"))
+        montoPagar = int(input("Ingrese monto a pagar: "))
         if montoPagar >= 0:
             if montoPagar <= deuda:
                 deuda = deuda - montoPagar
-                print("El saldo de la tarjeta es: $",deuda)
+            print("El saldo de la tarjeta es: $",deuda)
     elif op == 2:
         print("Comprando..")
+        
         montoCompra = int(input("Monto de la compra: "))
         if montoCompra >= 0:
             TotalCompra = montoCompra + TotalCompra
             saldo = TotalCompra + deuda
+            print(F"Tu nuevo saldo es: {saldo}")
     elif op == 3:
         print("Saliendo..")
-        #break
-        ingreso = False
+        break
+        
     else:
         print("Opcion no valida")
