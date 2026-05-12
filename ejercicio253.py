@@ -60,7 +60,7 @@ while True:
 
 
     elif op == 3:
-        print("Saliendo..")
+        print("Saliendo del programa!")
         #break
         ingreso = False
         
