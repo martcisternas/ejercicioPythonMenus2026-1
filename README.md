@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/31900015/README.md)[Uploading README.md…]# Gestor de Finanzas Personales (CLI)
+Gestor de Finanzas Personales (CLI)
 
 Simulador de línea de comandos en Python para administrar el saldo y la deuda
 de una tarjeta de crédito. Permite registrar pagos y simular compras,
@@ -29,6 +29,4 @@ python gestor_finanzas.py
 
 ## Autor
 
-Martín Cisternas — Analista Programador en formación, Duoc UC
-[LinkedIn](https://www.linkedin.com/in/martin-cisternas-2173b138b) · [GitHub](https://github.com/martcisternas)
-()
+Martín Cisternas — Analista Programador en formación, Duoc UC.
