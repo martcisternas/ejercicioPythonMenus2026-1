@@ -70,7 +70,7 @@ def main() -> None:
         elif opcion == "2":
             cuenta.comprar(pedir_monto("Monto de la compra: $"))
         elif opcion == "3":
-            print("¡Hasta luego!")
+            print("¡Hasta luego Amigo!!!")
             break
         else:
             print("Opción no válida, intenta de nuevo.")
